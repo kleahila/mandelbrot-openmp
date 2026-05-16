@@ -20,13 +20,13 @@ OMP_SRC="src/mandelbrot_omp.c"
 THREAD_COUNTS=(1 2 4 8)
 
 # ── Preset data (must match PRESETS[] in both .c files) ───────────────────────
-PRESET_NAMES=("Seahorse Valley" "Vortex" "Elephant Valley" "Lightning" "Mini Mandelbrot")
-PRESET_LABELS=("seahorse" "vortex" "elephant" "lightning" "mini_mandelbrot")
-PRESET_CX=("-0.7453954" "-0.7269820" "0.3750001" "-0.1592295" "-1.7499645")
-PRESET_CY=("0.1125490"  "0.1889580"  "0.0000010" "-1.0317437" "0.0000000")
-PRESET_ZOOM=("0.00065"  "0.00030"    "0.00120"   "0.00060"    "0.00050")
-PRESET_ITER=("2000"     "2000"       "2000"      "3000"       "2000")
-NUM_PRESETS=5
+PRESET_NAMES=("Seahorse Valley" "Vortex")
+PRESET_LABELS=("seahorse" "vortex")
+PRESET_CX=("-0.7453954" "-0.7269820")
+PRESET_CY=("0.1125490"  "0.1889580")
+PRESET_ZOOM=("0.00065"  "0.00030")
+PRESET_ITER=("2000"     "2000")
+NUM_PRESETS=2
 
 THEME_NAMES=("Seahorse Classic (orange/blue)" "Inferno (purple/red/yellow)" "Ocean (navy/teal/gold)" "Monochrome (black/white)")
 THEME_LABELS=("classic" "inferno" "ocean" "mono")

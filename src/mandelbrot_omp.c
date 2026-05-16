@@ -32,13 +32,10 @@ typedef struct {
 } Preset;
 
 static const Preset PRESETS[] = {
-    {"seahorse",        "Seahorse Valley",  -0.7453954,  0.1125490, 0.00065, 2000},
-    {"vortex",          "Vortex",           -0.7269820,  0.1889580, 0.00030, 2000},
-    {"elephant",        "Elephant Valley",   0.3750001,  0.0000010, 0.00120, 2000},
-    {"lightning",       "Lightning",        -0.1592295, -1.0317437, 0.00060, 3000},
-    {"mini_mandelbrot", "Mini Mandelbrot",  -1.7499645,  0.0000000, 0.00050, 2000},
+    {"seahorse", "Seahorse Valley", -0.7453954,  0.1125490, 0.00065, 2000},
+    {"vortex",   "Vortex",         -0.7269820,  0.1889580, 0.00030, 2000},
 };
-#define NUM_PRESETS 5
+#define NUM_PRESETS 2
 
 static const char *THEME_NAMES[]   = { "classic", "inferno", "ocean", "mono" };
 static const char *THEME_DISPLAY[] = { "Seahorse Classic", "Inferno", "Ocean", "Monochrome" };
