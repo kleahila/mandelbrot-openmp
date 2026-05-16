@@ -1,0 +1,29 @@
+# Compiled binaries
+bin/
+*.o
+
+# Generated images — excluded from tracking
+results/*.png
+results/*.ppm
+
+# Gallery images committed for README (not ignored)
+!results/seahorse.png
+!results/vortex.png
+
+# Benchmark timing data — tracked intentionally
+!results/benchmark_times.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
